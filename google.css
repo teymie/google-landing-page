@@ -3,6 +3,32 @@
   padding: 0;
 }
 
+.all {
+  max-width: 30rem;
+  overflow: scroll;
+  height: 12rem;
+  overflow-x: hidden;
+  border: rgba(223, 219, 219, 0.815) 0.5px solid;
+  border-radius: 0.7rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0.7rem;
+  position: absolute;
+  right: 1.3rem;
+  box-shadow: -2px 2px rgb(235, 233, 233);
+}
+.hide {
+  display: none;
+}
+.side {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70vw;
+}
+.inside {
+  padding: 1.1rem;
+}
+
 .top {
   display: flex;
   justify-content: space-between;
